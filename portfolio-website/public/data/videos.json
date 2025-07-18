@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Introduction to My Portfolio",
+      "description": "A brief introduction to my work and skills.",
+      "url": "https://example.com/videos/intro.mp4",
+      "thumbnail": "https://example.com/thumbnails/intro.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Project Showcase",
+      "description": "A showcase of my recent projects and achievements.",
+      "url": "https://example.com/videos/showcase.mp4",
+      "thumbnail": "https://example.com/thumbnails/showcase.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Animation Demo",
+      "description": "A demonstration of my animation skills.",
+      "url": "https://example.com/videos/animation-demo.mp4",
+      "thumbnail": "https://example.com/thumbnails/animation-demo.jpg"
+    }
+  ]
+}
