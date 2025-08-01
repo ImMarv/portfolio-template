@@ -43,6 +43,42 @@
         </div>
     </section>
 
+    <!-- MODAL SECTION -->
+    <!-- Modal for displaying project details - This stays hidden until triggered by clicking a card -->
+    <div class="modal" id="workModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <div class="header">
+                <h1>Project Title</h1>
+                <p>Project Subtitle</p>
+            </div>
+            <div class="modal-video">
+                <iframe id="modalVideo" width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-software-info">
+                <ul>
+                    <li>
+                        <h3>Made with: </h3>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Twitter">
+                            <img src="https://placehold.co/64x64" alt="Program Icon"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-details">
+                <h2>Project Details</h2>    
+                <p>Description goes here. This is a detailed overview of the project.</p>
+            </div>
+            <div id="modalGallery" class="gallery">
+                <img src="https://placehold.co/300x200" alt="Gallery Image" />
+                <img src="https://placehold.co/300x200" alt="Gallery Image" />
+                <img src="https://placehold.co/300x200" alt="Gallery Image" />
+            </div>
+        </div>
+    </div>
+
     <!-- SOCIAL MEDIA ICONS -->
     <footer class="social-media">
         <ul>
