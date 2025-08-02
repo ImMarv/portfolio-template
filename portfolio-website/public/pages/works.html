@@ -36,16 +36,21 @@
     <!-- Intention is to create cards for each piece of work-->
     <section class="card-container" id="cardContainer">
         <!-- Cards will be injected here dynamically -->
-        <div class="card">
-            <img src="https://placehold.co/300x200" alt="Thumbnail" class="card-image" />
-            <h1>Project Title</h1>
-            <p>Description goes here. This is a brief overview of the project.</p>
-        </div>
+        <script src="../js/works.js"></script>
+        <template id="cardTemplate">
+            <div class="card">
+                <img class="thumbnail" src="https://placehold.co/300x200" alt="Thumbnail" />
+                <div class="card-info">
+                    <h2 class="card-title">Project Title</h2>
+                    <p class="card-description">Description goes here. This is a brief overview of the project.</p>
+                </div>
+            </div>
+        </template>
     </section>
 
     <!-- MODAL SECTION -->
     <!-- Modal for displaying project details - This stays hidden until triggered by clicking a card -->
-    <div class="modal" id="workModal">
+    <div class="modal hidden" id="workModal">
         <div class="modal-content">
             <span class="close" id="closeModal">&times;</span>
             <div class="header">

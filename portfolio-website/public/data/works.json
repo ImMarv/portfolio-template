@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "title": "Portfolio Website",
+        "subtitle": "A personal showcase of projects",
+        "thumbnail": "https://placehold.co/300x200",
+        "description": "A modern portfolio website to display my work and skills.",
+        "details": "This project features a responsive design, interactive cards, and a modal for detailed project views. Built to highlight my web development capabilities.",
+        "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "software": [
+            {
+                "name": "HTML5",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            },
+            {
+                "name": "CSS3",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            }
+        ],
+        "gallery": [
+            "https://placehold.co/300x200",
+            "https://placehold.co/300x200",
+            "https://placehold.co/300x200"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "E-commerce Demo",
+        "subtitle": "Sample online store UI",
+        "thumbnail": "https://placehold.co/300x200",
+        "description": "A demo e-commerce site with product listings and a shopping cart.",
+        "details": "This project demonstrates a simple e-commerce front-end with product cards, a shopping cart, and checkout flow.",
+        "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "software": [
+            {
+                "name": "React",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            },
+            {
+                "name": "Redux",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            }
+        ],
+        "gallery": [
+            "https://placehold.co/300x200",
+            "https://placehold.co/300x200"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Blog Platform",
+        "subtitle": "A simple blogging application",
+        "thumbnail": "https://placehold.co/300x200",
+        "description": "A platform for creating, editing, and sharing blog posts.",
+        "details": "This project allows users to register, write blog posts, and comment on articles. Features a clean and minimal UI.",
+        "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "software": [
+            {
+                "name": "Node.js",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            },
+            {
+                "name": "Express",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "https://placehold.co/64x64",
+                "link": "#"
+            }
+        ],
+        "gallery": [
+            "https://placehold.co/300x200"
+        ]
+    }
+]
