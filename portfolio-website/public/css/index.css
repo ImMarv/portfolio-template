@@ -76,6 +76,15 @@ body {
 }
 
 /* SOCIAL MEDIA ICONS */
+.social-media {
+  margin: 2rem 0;
+  text-align: center;
+  position: relative;
+  flex: 1;
+  bottom: 1rem;
+  width: 100%;
+}
+
 .social-media ul {
   list-style: none;
   display: flex;
