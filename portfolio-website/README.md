@@ -2,37 +2,6 @@
 
 This is a portfolio website project that showcases various works and provides a contact page for inquiries. The project is structured to separate concerns between the frontend and backend, utilizing Express and EJS for templating.
 
-## Project Structure
-
-```
-portfolio-website/
-├── public/                   # All static files go here
-│   ├── css/                  # Stylesheets
-│   │   └── styles.css
-│   ├── js/                   # Frontend JavaScript
-│   │   └── main.js
-│   ├── assets/               # Images, thumbnails, videos, icons
-│   ├── data/                 # JSON files for dynamic content
-│   │   └── videos.json
-│   └── index.html            # Static home/about page
-├── views/                    # Templating (if using Express + EJS or similar)
-│   ├── layout.ejs
-│   ├── works.ejs
-│   ├── animation.ejs
-│   └── contact.ejs
-├── routes/                   # Express backend route files
-│   ├── contact.js
-│   └── works.js
-├── controllers/              # Optional: logic separated from routes
-│   └── contactController.js
-├── utils/                    # Helper functions (e.g., send email, validation)
-│   └── mailer.js
-├── app.js                    # Main Express app entry point
-├── package.json              # npm dependencies and scripts
-├── .gitignore
-└── README.md
-```
-
 ## Setup Instructions
 
 1. **Clone the repository:**
