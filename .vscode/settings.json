@@ -1,0 +1,4 @@
+{
+    "discord.enabled": true,
+    "livePreview.defaultPreviewPath": "/portfolio-website/public/pages/index.html"
+}
