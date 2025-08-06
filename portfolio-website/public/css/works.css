@@ -88,8 +88,10 @@ body {
     align-items: center;
 }
 
+
 .modal.hidden {
     display: none;
+    pointer-events: none;
 }
 
 .modal-content {
@@ -100,7 +102,7 @@ body {
     border-radius: 8px;
     position: relative;
     max-width: 70%;
-    width: 800px;
+    width: 70%;
     overflow-y: auto;
     max-height: 90%;
     text-align: center;
@@ -193,6 +195,15 @@ body {
 }
 
 /* SOCIAL MEDIA ICONS ----------------------------------------------------*/
+.social-media {
+    margin: 2rem 0;
+    text-align: center;
+    position: absolute;
+    flex: 1;
+    bottom: 1rem;
+    width: 100%;
+}
+
 .social-media ul {
     list-style: none;
     display: flex;
